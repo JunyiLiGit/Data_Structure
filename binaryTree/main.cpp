@@ -8,7 +8,7 @@ int main(){
 
   for(int i=0; i<10; ++i){
 
-    b->tree_insert(i);
+    b->tree_insert(rand()%20);
   }
 
 

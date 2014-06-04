@@ -4,8 +4,8 @@
 template <typename T>
 struct Node{
 	T key;
-	Node* prev;
-	Node* next;
+	Node<T>* prev;
+	Node<T>* next;
 	Node(const T& data=T(), Node<T>* p=0, Node<T>* n=0):
 	key(data),
 	prev(p),

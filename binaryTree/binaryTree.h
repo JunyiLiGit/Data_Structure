@@ -5,7 +5,8 @@
   The worst time complaxity of operations on the binary search tree is
   proportional to the height of the tree which is lg(n), n is the number of nodes.
   If the tree is a linked list which contains n nodes, the worst time complaxity
-  is O(n)*/
+  is O(n)
+  */
 
 #include <iostream>
 #include <assert.h>
